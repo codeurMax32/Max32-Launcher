@@ -1,7 +1,7 @@
 <?php
-$instance['hypixel'] = array_merge($instance['hypixel'], array(
+$instance['test01'] = array_merge($instance['test01'], array(
     "loadder" => array(
-        "minecraft_version" => "1.8.9",
+        "minecraft_version" => "1.20.4",
         "loadder_type" => "forge",
         "loadder_version" => "latest"
     ),
@@ -25,22 +25,5 @@ $instance['hypixel'] = array_merge($instance['hypixel'], array(
         "ip" => "mc.hypixel.net",
         "port" => 25565
     )
-));
-
-$instance['PokeMoonX'] = array_merge($instance['PokeMoonX'], array(
-    "loadder" => array(
-        "minecraft_version" => "1.16.5",
-        "loadder_type" => "forge",
-        "loadder_version" => "1.16.5-36.2.35"
-    ),
-    "verify" => false,
-    "ignored" => array(),
-    "whitelist" => array(),
-    "whitelistActive" => false,
-    "status" => array(
-        "nameServer" => "PokeMoonX",
-        "ip" => "178.32.106.234",
-        "port" => 25599
-    )
-));
+))
 ?>
